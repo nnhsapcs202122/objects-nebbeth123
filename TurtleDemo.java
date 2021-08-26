@@ -37,5 +37,61 @@ public class TurtleDemo
          * when invoking the mthod, arguments are passed in the parenthaseses (e.g. 50)
          */
         int y, x2 ,x_y, x$;
+        
+        // this is not a valid identifier
+        //int 2y;
+        
+        /*
+         * identifiers are case sensitive (case matters)
+         * 
+         * these are all differnet identifiers
+         */
+        
+        Turtle squirt, SQUIRT, sQuIRt; 
+        
+        /*
+         * By convention, constants are alll uppercase.
+         *  use an underscore to seperate words.
+         */
+        
+       int SPEED_OF_LIGHT = 300000000;
+       
+       /*
+        * by convention, most other identifiers start with a lowercase letter. 
+        *   subsequent words start with an uppercase letter. (camalcase)
+        */
+       
+       World pacificOcean;
+       
+       /*
+        * this a compile-time error. (this code doesn't even compile)
+        * 
+        * this is often a syntax error.
+        */
+       
+       //crush.forwad(50);
+       
+       /*
+        * this is a run-time error. (this code compiles and runs, but generates an excpetion) 
+        *   in most cases the program crashes
+        */
+       
+       //crush.forward(1/0);
+       
+       /*
+        * This is also a run-time error. (this code compiles and runs,
+        *   but it does not produce the exected output.)
+        *   
+        * More specifically, this is a logical error as the turtle turns right instead of left.
+        * 
+        */
+       //have the turtle turn left and move forward 50 
+       crush.turn(90);
+       crush.forward(50);
+    }
+    public static void drawLine()
+    {
+        
     }
 }
+                                                                                                                                                                                                                 
