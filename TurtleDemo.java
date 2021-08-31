@@ -1,4 +1,4 @@
-import java.awt.Color;
+    import java.awt.Color;
 
 /*
 every java program comtains one or more classes(e.g., TurtleDemo).
@@ -91,7 +91,42 @@ public class TurtleDemo
     }
     public static void drawLine()
     {
+        /*
+         * Objects are entities in a program.
+         *  objects have attributres.
+         *  objects are manipulated by methods. 
+         *  
+         * ocean and crush are variables that reference obejcts.
+         * 
+         * Classes describe a collection of objects. 
+         *  all objects of a class have the same behavior (methods)
+         *  and types of attributes (but they may have different values.)
+         *  
+         * world and turtle and classes. 
+         */
         
+        World ocean = new World();
+        
+        /*
+         * We ues the operator to construct (create, instantiate) an object.
+         * 
+         * the class of the object is specified immediately after the new operator (e.g. Turtle).
+         * 
+         * If we need to pass additional information to construct the object,
+         *      arguments are specified in parentheses after the class (e.g. ocean) 
+         *      
+         */
+        
+        Turtle crush = new Turtle(ocean);
+        
+        /*
+         * variables store values to be used alter.
+         * 
+         *      variable have a type (e.g. int), a name (e.g. width), and a value (e.g. 20)
+         */
+        
+        int width; // declaring a variable 
+        width =20; // assigning a value to a variable
     }
 }
                                                                                                                                                                                                                  
