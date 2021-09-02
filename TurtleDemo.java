@@ -161,7 +161,17 @@ public class TurtleDemo
         crush.setPenColor(Color.RED);
         crush.forward(30);
         
-      
+        Color white = new Color(225,225,225); // defining your own color exmaple
+        
+        /*
+         * Accessor method returns the value of an attribute of the object. 
+         *      The state of the object does not change.
+         *      
+         *      getPenwidth() is an accessor method. 
+         */
+        
+        int penWidth = crush.getPenWidth();
+        System.out.println(penWidth); 
     }
 }
                                                                                                                                                                                                                  
