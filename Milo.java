@@ -10,10 +10,15 @@ public class Milo
         milo.moveTo(300,200);
         milo.penDown();
         milo.moveTo(400,200);
-        milo.turn(
+        milo.turn(90);
         for (int i = 0; i < 4; i++) {
             milo.turn(72);
             milo.forward(100);
         }        
+        Turtle andy = new Turtle(earth);
+        andy.penUp();
+        andy.moveTo(100,100);
+        andy.penDown();
+        andy.moveTo(200,200);
     }
 }
