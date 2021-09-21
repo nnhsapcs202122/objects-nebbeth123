@@ -1,5 +1,5 @@
 import java.awt.Color;
-public class Milo
+public class TurtleLab
 {
     public static void main(String[] args)
     {
